@@ -1,0 +1,47 @@
+{
+    "extends": ["tslint-config-egg"],
+    "linterOptions": {
+        "exclude": [
+            "config/**/*.js",
+            "node_modules/**/*.ts",
+            "database/**/*.js"
+        ]
+    },
+    "rules": {
+        "ordered-imports": false,
+        "no-console": false,
+        "arrow-parens": false,
+        "no-trailing-whitespace": false,
+        "no-var-requires": false,
+        "variable-name": false,
+        "max-line-length": false,
+        "member-ordering": false,
+        "prefer-for-of": false,
+        "quotemark": false,
+        "object-literal-sort-keys": false,
+        "radix": false,
+        "linebreak-style": false,
+        "array-bracket-spacing": false,
+        "whitespace": false,
+        "trailing-comma": false,
+        "align": false,
+        "object-literal-key-quotes": false,
+        "object-curly-spacing": false,
+        "eofline": false,
+        "semicolon": false,
+        "array-type": false,
+        "typedef-whitespace": false,
+        "prefer-const": false,
+        "object-literal-shorthand": false,
+        "comment-format": false,
+        "ter-arrow-spacing": false,
+        "ter-arrow-parens": false,
+        "one-line": false,
+        "triple-equals": false,
+        "no-conditional-assignment": false,
+        "no-constant-condition": false,
+        "no-string-literal": false,
+        "no-bitwise": false,
+        "binary-expression-operand-order": false
+    }
+}
